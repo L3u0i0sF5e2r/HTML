@@ -1,0 +1,40 @@
+body{
+    background-color:rgba(126, 194, 211,40%);
+    color:#fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+}
+div{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    gap: 15px;
+}
+
+h1{
+    color:rgb(230, 49, 49);
+    font-size:50px;
+    
+}
+
+.opcion:hover{
+    width:29% ;
+    line-height:70px;
+    background-image: linear-gradient(to right top, rgba(8, 30, 160,0.5), rgba(62, 140, 230,0.7), rgba(93, 145, 243,0.8));
+    
+}
+.opcion{
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    width:350px;
+    height:90px;
+    line-height:90px;
+    border-radius:10px;
+    font-size:25px;
+    color:rgba(201, 204, 206, 0.6);
+    font-weight:bold;
+    background-image: linear-gradient(to right top, #031227, #004d7a);
+    transition: .20s ease-in-out;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/page.css">
+    <title>Procesos</title>
+</head>
+<body>
+    <section class="contenedor">
+        <h1>TBL Multiplicar</h1>
+        <form action="../index1.html">
+            <div class="grupo">
+                <label for="numero">Ingrese el numeros:</label>
+                <input type="text" id="num1" value="" placeholder="Ingrese numero"/>
+                <input type="text" id="num2" value="" placeholder="Hata donde quiere multiplicar"/>
+            </div>
+            <div class="grupo">
+                <button type="button" onclick="cul.tablademul()">Multiplicar</button>
+               
+                <button type="reset"  onclick="cul.limpiar()">Limpiar</button>
+                <button type="submit">Regresar</button>
+            </div>
+            <textarea  id="resp" rows="10">
+              
+
+            </textarea>
+        </form>
+    </section>
+    <script src="../java/java.js">
+
+    </script>
+</body>
+</html>
